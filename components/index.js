@@ -1,7 +1,8 @@
 import Intro from "./intro";
-import Projects from "./projects";
 import Navbar from "./navbar";
 import Footer from "./footer";
 import Contact from "./contact";
+import ProjectCard from "./projects/projectcard";
+import projects from "./projects/projects";
 
-export { Intro, Projects, Navbar, Footer, Contact };
+export { Intro, Navbar, Footer, Contact, ProjectCard, projects };

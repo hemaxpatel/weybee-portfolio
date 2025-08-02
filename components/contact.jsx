@@ -44,8 +44,8 @@ const socialLinks = [
 
 export default function Social() {
   return (
-    <div className="w-full h-full">
-      <h2 className="inline-block justify-center text-center text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400">
+    <div className="w-full h-full flex flex-col items-center">
+      <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400">
         Contact
       </h2>
 

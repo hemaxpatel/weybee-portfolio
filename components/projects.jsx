@@ -3,8 +3,8 @@
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
-import ProjectCard from "@/components/projectcard";
-import projects from "@/components/project.js";
+import ProjectCard from "@/components/projects/projectcard";
+import projects from "@/components/projects/projects.js";
 
 export default function Projects() {
   const controls = useAnimation();

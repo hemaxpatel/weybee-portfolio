@@ -140,38 +140,6 @@ const projects = [
     ],
     github: "https://github.com/hemaxpatel/Sabras",
   },
-  {
-    id: "om-party-plot",
-    name: "Om Partyplot",
-    tagline: "Live OM Party Plot Website",
-    thumbnail: "/om-party-plot1.png",
-    description:
-      "OM Party Plot is a sleek and responsive portfolio website created for showcasing the offerings and facilities of a party plot venue. It is designed to provide visitors with all the essential information about the venue, including available services, event types, gallery images, pricing, and contact details, making it easy for potential clients to explore and book the venue.",
-    techStack: ["HTML", "CSS", "JavaScript"],
-    images: [
-      "/om-party-plot1.png",
-      "/om-party-plot2.png",
-      "/om-party-plot3.png",
-    ],
-    github: "https://github.com/hemaxpatel/om-party-plot",
-  },
-  {
-    id: "ai-world",
-    name: "AI World",
-    tagline: "AI tools Finding Website",
-    thumbnail: "/ai-world1.png",
-    description:
-      "AI World is a modern and user-friendly website designed to help users search, explore, and discover a wide range of AI tools based on their needs and categories. Built to simplify the growing world of artificial intelligence, this platform serves as a centralized hub where users can filter tools by category, search by name, and instantly access detailed information and links to each tool. Whether you're a developer, marketer, designer, or just curious about AI, this website makes it easy to find the right tool for your use case.",
-    techStack: ["HTML", "CSS", "JavaScript"],
-    images: [
-      "/ai-world1.png",
-      "/ai-world2.png",
-      "/ai-world3.png",
-      "/ai-world4.png",
-      "/ai-world5.png",
-    ],
-    github: "https://github.com/hemaxpatel/AI-World",
-  },
 ];
 
 export default projects;

@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { projects } from "@/components/index.js";
-import Particles from "@/components/ui/particles";
 
 const ProjectDetails = () => {
   const params = useParams();
@@ -28,15 +27,6 @@ const ProjectDetails = () => {
 
   return (
     <div className="relative pt-12 min-h-screen w-full bg-black text-white overflow-hidden">
-      {/* Particles */}
-      <Particles
-        className="absolute inset-0 z-0"
-        quantity={300}
-        ease={80}
-        color={"ffffff"}
-        refresh
-      />
-
       <div className="relative z-10 px-8 py-10 max-w-6xl mx-auto">
         {/* Title */}
         <h1 className="inline-block text-4xl md:text-5xl font-bold text-transparent mb-2 bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400">
